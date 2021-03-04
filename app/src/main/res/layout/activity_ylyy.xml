@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YlyyActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Улуу Куданса"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="207dp"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/play1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#FFC107"
+        android:text="Сагалыахха" />
+
+    <Button
+        android:id="@+id/pause1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/play1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-93dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Тохтоо" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pause1"
+        android:layout_marginTop="136dp"
+        android:text="Устаты муруннаах, утары сирэйдээх, уу дугуй суьуехтээх
+ураанхай сахага хаьаанныттан ыла кыьыл субай хааныгар, урун беллемех мэйиитгэр
+аас-тот икки, кулут-тойот икки уоттаах улуу меккуердэрин умуллубат телене илбис
+буолан инмитэй диэн ыйыталаьар этигиэт?!!"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="58dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#FFFFFF"
+        android:foregroundTint="#FAF8F8"
+        android:tint="#130101"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <Button
+        android:id="@+id/play2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/play1"
+        android:backgroundTint="#FFC107"
+        android:text="Начать" />
+
+    <Button
+        android:id="@+id/pause2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pause1"
+        android:backgroundTint="#36A9DD"
+        android:text="Пауза" />
+
+    <Button
+        android:id="@+id/play3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/play1"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#FFC107"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/pause3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pause1"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#03A9F4"
+        android:text="Pause" />
+</RelativeLayout>

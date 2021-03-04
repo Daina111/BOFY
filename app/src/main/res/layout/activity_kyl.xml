@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KylActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F8F6F6"
+        android:foregroundTint="#FBF9F9"
+        android:tint="#0B0000"
+        app:srcCompat="@drawable/abc_vector_test" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата рождения: 4(16) марта 1877. Место рождения: Таттинский
+улус, Якутская область, Российская империя.Дата смерти 6 июня 1926 (49 лет).
+Место смерти Москва, СССР. Гражданство: Российская империя, РСРФСР, СССР,
+АССР. Год реядтельности: писатель, поэт. Направление: социалистический, релизм.
+Жанр: поэма, стихотворение. Язык произведений: якутский, русский."
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/imageView5"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        app:srcCompat="@drawable/b44" />
+</RelativeLayout>

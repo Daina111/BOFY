@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlatonActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        app:srcCompat="@drawable/b5"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="3dp" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Имя при рождении Платон Алексеевич Слепцов
+Дата рождения:30 октября (11 ноября) 1893
+Место рождения 3-й Жехсогонский наслег, Таттинский улус, Якутская область,
+Российская империя
+Дата смерти: 31 октября 1939 (45 лет)
+Место смерти Якутск, РСФСР, СССР
+Гражданство (подданство)
+Род деятельности: писатель, поэт, переводчик, драматург, филолог,
+общественный деятель
+Язык произведений:якутский, русский"
+        android:layout_below="@+id/imageView4"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F8F6F6"
+        android:foregroundTint="#FBF9F9"
+        android:tint="#0B0000"
+        app:srcCompat="@drawable/abc_vector_test"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_marginTop="27dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Улуу Куданса"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
